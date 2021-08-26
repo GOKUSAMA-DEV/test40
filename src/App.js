@@ -53,7 +53,7 @@ const App = () => {
             <p>Find Top <span style={{color: "#213858"}}><b>Colleges, <br />Coaching, Courses..!</b></span></p>
           </div>
           <div className="search-bar">
-            <div style={{ marginLeft: 15 }}>
+            <div style={{ marginLeft: 15, color:"gray" }}>
               <p>Search Colleges, Courses, Coaching</p>
             </div>
             <div className="search">
@@ -102,25 +102,25 @@ const App = () => {
 
         </div>
         <div className="section3">
-          <div className="section3-title">Fill Your Details for Counselling</div>
+          <div className="section3-title">Fill Your Details <span style={{color: "#213858"}}><b>for Counselling</b></span></div>
           <div className="section3-parts">
             <div className="section3-left">
-              <div>
+              <div className="section3-image">
                 <img src="https://www.collegedisha.com/assets/images/for-student.webp" alt="img"/>
               </div>
               <div className="left2">
                 <p>Fill up the form and our mentors will help you overcome career related problems with smart solutions.</p>
               </div>
               <div className="left3">
-                <button>Contact Us</button>
+                <button><span className="call-icons"><i class="fa fa-phone"></i></span>CONTACT US</button>
               </div>
             </div>
             <div className="section3-right">
               <div className="section-right-title">
-                <h2>Fill the Details Here</h2>
+                <p>Fill the Details Here</p>
               </div>
               <div className="section-right-subcontent">
-                <p>Student / Parent</p>
+                <p><span style={{color:"#33a0ab"}}>Student</span> / Parent</p>
               </div>
               <div className="input">
                 <input placeholder="Name" />
@@ -133,8 +133,8 @@ const App = () => {
                 <input placeholder="Gaurdian's Phone Number" />
               </div>
               <div className="submit-line">
-              <div>
-                <p>Are you a parent?Click Here</p>
+              <div className="are-you">
+                <p>Are you a parent? <span style={{color:"#213858"}}>Click Here</span></p>
               </div>
               <div>
                 <button>Submit</button>
